@@ -1,3 +1,5 @@
+
+
 // seleccionando todo
 // seleccionando todo-form
 const todoForm = document.querySelector('.todo-form');
@@ -135,3 +137,10 @@ todoItemsList.addEventListener('click', function(event) {
     deleteTodo(event.target.parentElement.getAttribute('data-key'));
   }
 });
+
+
+
+$(".add-button").click(function(){
+  alert("Tu actividad se añadió correctamente");
+});
+
